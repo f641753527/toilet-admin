@@ -5,7 +5,7 @@ import HelloWorld from '@/components/HelloWorld'
 Vue.use(Router)
 
 export default new Router({
-  base: '/admin',
+  base: '/toilet-admin',
   mode: 'history',
   routes: [
     {
