@@ -44,11 +44,20 @@ export default {
         {
           prop: 'cover_img',
           label: '封面',
-         
+          render: (h, row) => {
+            return h('img', {
+              attrs: { src: row.cover_img },
+              style: { width: '100px', height: '100px' }
+            });
+          }
         },
         {
           prop: 'link',
           label: '链接',
+        },
+        {
+          prop: 'create_time',
+          label: '创建时间',
         },
         {
           label: '操作',

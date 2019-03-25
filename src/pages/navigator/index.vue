@@ -8,7 +8,9 @@
         <el-menu-item index="/navigator/news/2">笑料</el-menu-item>
         <el-menu-item index="/navigator/news/3">管理</el-menu-item>
         <el-menu-item index="/navigator/news/4">散文</el-menu-item>
-        <el-menu-item index="/navigator/config">模块配置</el-menu-item>
+        <el-menu-item index="/navigator/news/5">推荐专题</el-menu-item>
+        <el-menu-item index="/navigator/news/6">热门推荐</el-menu-item>
+        <el-menu-item index="/navigator/news/7">清新一刻</el-menu-item>
       </el-menu>
     </div>
     <div class="body">
